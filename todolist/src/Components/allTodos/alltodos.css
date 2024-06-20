@@ -1,0 +1,84 @@
+    .tasks h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: darkblue;
+  }
+  
+  
+  .to-do-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 500px;
+  }
+  
+  
+  .todo-item {
+    display: flex;
+    font-size: 18px;
+    color: #333;
+    flex:3;
+  }
+
+  .todo-edit.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  
+ 
+  .icons {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .todo-edit {
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: bolder;
+    font-size: 21px;
+    color: green;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-delete {
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #e74c3c;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .button.orangered{
+    background-color: orangered;
+    text-decoration: line-through;
+    text-decoration: none;
+  }
+
+  .button.white{
+    border: 1px solid rgb(201, 201, 201);
+    background-color: white;
+    text-decoration: none;
+  }
+  .strikethrough{
+    text-decoration: line-through;
+  }
+  .checkmark{
+    font-size: 16px;
+    color: white;
+  }
